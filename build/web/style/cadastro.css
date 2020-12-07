@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/11/2020, 20:29:34
+    Author     : Jamilly
+*/
+
+.arrow-left{
+    position: absolute;
+    left: 2%;
+    top: 2%; 
+    
+    font-size:20px; 
+    color:#ffffff;
+
+    padding: 12px 14px;
+    border-radius: 16px;
+
+    cursor: pointer;
+}
+
+.arrow-left:hover{
+    color: #ffffffc5;
+}
+
+.new-class{
+    position: absolute;
+    left: 13%;
+    top: 2%; 
+    
+    font-size:20px; 
+    color:#ffffff;
+
+    padding: 12px 14px;
+    border-radius: 16px;
+
+    cursor: pointer;
+}
+
+.new-class:hover{
+    color: #ffffffc5;
+}
+
+.create-form {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    width: 60%;
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    background: #ffffff ;
+    border-radius: 20px;
+      
+    padding: 64px 80px;
+  
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+
+.create-form fieldset {
+    border: 0;
+  }
+  
+.create-form fieldset legend {
+    width: 100%;
+    color: #264d42;
+  
+    font-size: 32px;
+    font-weight: 700;
+  
+    border-bottom: 1px solid rgb(201, 201, 201);
+    margin-bottom: 30px;
+    padding-bottom: 24px;
+}
+
+.create-form fieldset p{
+    margin-bottom: 20px;
+    color:#ca0000;
+}
+
+
+.create-form .input-block + .input-block {
+    margin-top: 24px;
+}
+  
+.create-form .input-block label {
+    display: flex;
+    color: #61807c;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+  
+
+.create-form .input-block input{
+    width: 100%;
+    background:#F0F0F7;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 20px;
+    outline: none;
+    height: 64px;
+    padding: 0 16px;
+}
+
+.create-form .input-block input:focus{
+    border: 1px solid#05ceba;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.select-block label{
+    display: flex;
+    color: #61807c;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.select-block select{
+    width: 100%;
+    height: 64px;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+    background: #F0F0F7;
+    border: 1px solid rgb(201, 201, 201);
+   
+    outline: 0;
+    padding: 0 32px;
+    font: 32px;
+    
+}
+
+.select-block select:focus{
+    border: 1px solid#05ceba;
+}
+
+.confirm-button {
+    margin-top: 64px;
+  
+    width: 50%;
+    height: 64px;
+    border: 0;
+    cursor: pointer;
+    background:  #039b8c;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 800;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+    transition: background-color 0.2s;
+}
+  
+.confirm-button:hover {
+    background: #05ceba;
+}
+  

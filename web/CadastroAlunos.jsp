@@ -17,14 +17,14 @@
 
         <title>Cadastro de aluno</title>
     </head>
-    <body>
+    <body>      
         <header class="page-header">
             <div class="top-bar-container">
                 <a href="ListagemAlunos" class="arrow-left">
-                   <i class="fas fa-long-arrow-alt-left"> &nbsp; Voltar</i><!-- link para ir para a listagem de alunos -->
+                   <i class="fas fa-long-arrow-alt-left"> &nbsp; Voltar</i>
                 </a>
                 <a href="CadastroTurmas" class="new-class">
-                    <i class="fas fa-chalkboard-teacher"> &nbsp;Turmas</i><!-- link para ir para a listagem e cadastro de turmas -->
+                    <i class="fas fa-chalkboard-teacher"> &nbsp;Turmas</i>
                 </a>
                 <div class = "icon"> 
                     <i class="fas fa-address-book"></i>

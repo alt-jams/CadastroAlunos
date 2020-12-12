@@ -33,14 +33,14 @@ public class CadastroAlunos extends HttpServlet {
         Aluno a = new Aluno();
         
         TurmaModel model = new TurmaModel();
-        ArrayList<Turma> turmas = model.getTurmas();
+        ArrayList<Turma> turmas = model.getTurmas();  
         
         if(request.getParameter("id") != null) {
             AlunoModel alunoModel = new AlunoModel();
             int id = Integer.parseInt(request.getParameter("id"));
             a = alunoModel.getAluno(id);
         }
-        
+     
         request.setAttribute("turmas", turmas); 
         request.setAttribute("aluno", a);
         
@@ -60,7 +60,7 @@ public class CadastroAlunos extends HttpServlet {
             AlunoModel model = new AlunoModel();
             Aluno a = new Aluno(nome, turma, matricula, idade);
             
-            boolean retorno = false;
+           String retorno;
  
             if (request.getParameter("id") != null) {
                 a.setId(Integer.parseInt(request.getParameter("id")));
@@ -69,12 +69,12 @@ public class CadastroAlunos extends HttpServlet {
                 retorno = model.adicionarAluno(a);
             }
 
-            if (!retorno) {
+            if (retorno != null) {
                  if (request.getParameter("id") != null){
                      response.sendRedirect("CadastroAlunos?id=" + request.getParameter("id") + 
-                             "&erro=Preencha todos os campos!");
+                             "&erro=" + retorno);
                  }else{
-                    response.sendRedirect("CadastroAlunos?erro=Preencha todos os campos!");
+                    response.sendRedirect("CadastroAlunos?erro=" + retorno);
                  }
             } else {
 

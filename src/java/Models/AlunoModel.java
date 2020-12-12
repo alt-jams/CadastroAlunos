@@ -15,11 +15,11 @@ import java.util.ArrayList;
 public class AlunoModel {
     static ArrayList<Aluno> alunos = new ArrayList();
     
-    public boolean adicionarAluno(Aluno a){
+    public String adicionarAluno(Aluno a){
         String idade = "" + a.getAge();
         if (a.getNome().equals("") || idade.equals("") || 
             a.getTurma().equals("") || a.getMatricula().equals("")){
-            return false;
+            return "Preencha todos os campos";
         }
         
         if(alunos.size() == 0) {
@@ -30,14 +30,14 @@ public class AlunoModel {
         }
         
         alunos.add(a);
-        return true;
+        return null;
     }
     
-    public boolean alterarAluno(Aluno a){
+    public String alterarAluno(Aluno a){
         String idade = "" + a.getAge();
         if (a.getNome().equals("") || idade.equals("") || 
             a.getTurma().equals("") || a.getMatricula().equals("")){
-            return false;
+            return "Preencha todos os campos";
         }
         
         for (Aluno aluno : alunos){
@@ -50,7 +50,7 @@ public class AlunoModel {
             }
         }
         
-        return true;
+        return null;
     }
     
     public ArrayList<Aluno> getAlunos(){      

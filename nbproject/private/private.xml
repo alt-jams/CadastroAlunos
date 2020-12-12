@@ -3,19 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/src/java/Models/AlunoModel.java</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/web/CadastroTurmas.jsp</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/web/CadastroAlunos.jsp</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/src/java/Controllers/CadastroAlunos.java</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/src/java/Models/TurmaModel.java</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/web/ListagemAlunos.jsp</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/src/java/Controllers/ListagemAlunos.java</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/src/java/Controllers/CadastroTurmas.java</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/src/java/Entities/Aluno.java</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/web/scripts/biblio.js</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/web/style/cadastroTurmas.css</file>
-            <file>file:/C:/Users/jamil/Documents/NetBeansProjects/Cadastro%20alunos/web/style/listagem.css</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/src/java/Controllers/CadastroTurmas.java</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/web/CadastroAlunos.jsp</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/src/java/Controllers/CadastroAlunos.java</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/web/CadastroTurmas.jsp</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/src/java/Models/AlunoModel.java</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/web/ListagemAlunos.jsp</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/src/java/Models/TurmaModel.java</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/src/java/Entities/Turma.java</file>
         </group>
     </open-files>
 </project-private>

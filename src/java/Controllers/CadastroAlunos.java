@@ -33,14 +33,14 @@ public class CadastroAlunos extends HttpServlet {
         Aluno a = new Aluno();
         
         TurmaModel model = new TurmaModel();
-        ArrayList<Turma> turmas = model.getTurmas();  
+        ArrayList<Turma> turmas = model.getTurmas();
         
         if(request.getParameter("id") != null) {
             AlunoModel alunoModel = new AlunoModel();
             int id = Integer.parseInt(request.getParameter("id"));
             a = alunoModel.getAluno(id);
         }
-     
+        
         request.setAttribute("turmas", turmas); 
         request.setAttribute("aluno", a);
         

@@ -17,7 +17,17 @@
 
         <title>Cadastro de aluno</title>
     </head>
-    <body>      
+    <body>  
+        <c:if test = "${turmas.size() == 0}">
+            <script type="text/javascript">
+                if(window.confirm('Ainda não existem turmas cadastradas! Por favor Cadastre uma turma primeiro.')){
+                    location.href="CadastroTurmas";
+                }else{
+                    location.href="ListagemAlunos";
+                }
+            </script>
+        </c:if>   
+        
         <header class="page-header">
             <div class="top-bar-container">
                 <a href="ListagemAlunos" class="arrow-left">

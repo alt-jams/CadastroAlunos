@@ -5,12 +5,16 @@
         <group>
             <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/src/java/Controllers/CadastroTurmas.java</file>
             <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/web/CadastroAlunos.jsp</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/web/style/cadastroTurmas.css</file>
             <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/src/java/Controllers/CadastroAlunos.java</file>
             <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/web/CadastroTurmas.jsp</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/web/style/cadastro.css</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/web/WEB-INF/web.xml</file>
             <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/src/java/Models/AlunoModel.java</file>
             <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/web/ListagemAlunos.jsp</file>
             <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/src/java/Models/TurmaModel.java</file>
             <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/src/java/Entities/Turma.java</file>
+            <file>file:/C:/Users/jamil/Documents/GitHub/CadastroAlunos/web/style/listagem.css</file>
         </group>
     </open-files>
 </project-private>
